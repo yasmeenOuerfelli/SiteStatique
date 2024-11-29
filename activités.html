@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Activités et Intérêts - Yasmine Ouerfelli</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-image: url('a.jpg');
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+            color: #2e7d32;
+            line-height: 1.6;
+            position: relative;
+        }
+
+        /* Superposition semi-transparente sur l'image de fond */
+        body::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(255, 255, 255, 0.5); /* Couleur blanche avec opacité */
+            z-index: -1; /* Met l'overlay derrière le contenu */
+        }
+
+        header {
+            background-color: rgba(129, 199, 132, 0.8);
+            color: #1b5e20;
+            padding: 20px;
+            text-align: center;
+            border-bottom: 5px solid #2e7d32;
+        }
+
+        header h1 {
+            margin: 0;
+        }
+
+        main {
+            padding: 20px;
+            background-color: rgba(255, 255, 255, 0.3); /* Semi-transparent pour laisser passer l'image de fond */
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            overflow: hidden;
+        }
+
+        .section {
+            margin-bottom: 30px;
+            background-color: rgba(255, 255, 255, 0.9); /* Garder la couleur de fond */
+            border-radius: 10px;
+            padding: 15px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .section:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+        }
+
+        .section h2 {
+            color: #2e7d32;
+            margin-bottom: 10px;
+        }
+
+        .section p {
+            margin: 10px 0;
+        }
+
+        footer {
+            text-align: center;
+            background-color: rgba(129, 199, 132, 0.8);
+            color: #1b5e20;
+            padding: 15px 0;
+            border-top: 5px solid #2e7d32;
+        }
+
+        .button {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #81c784;
+            color: #1b5e20;
+            text-decoration: none;
+            border-radius: 10px;
+            margin-top: 15px;
+            font-weight: bold;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            transition: background-color 0.3s ease;
+        }
+
+        .button:hover {
+            background-color: #66bb6a;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Activités et Intérêts</h1>
+    </header>
+
+    <main>
+        <section class="section">
+            <h2>Développement Web</h2>
+            <p>J'ai acquis une expertise solide en développement web, créant des sites interactifs et dynamiques grâce à des technologies modernes telles que HTML, CSS, JavaScript, et PHP. Je me concentre sur l'expérience utilisateur et sur la création de solutions accessibles et optimisées.</p>
+        </section>
+
+        <section class="section">
+            <h2>Internet des Objets (IoT)</h2>
+            <p>Mon expérience dans le domaine de l'IoT inclut la conception de projets basés sur des dispositifs connectés pour collecter et analyser des données en temps réel. J'ai utilisé des plateformes comme Arduino et Raspberry Pi pour développer des solutions innovantes dans des applications domestiques et industrielles.</p>
+        </section>
+
+        <section class="section">
+            <h2>Photographie</h2>
+            <p>La photographie est pour moi bien plus qu'une simple passion ; c'est un moyen d'expression. Je pratique aussi bien la photographie artistique que le reportage, capturant des moments uniques à travers des portraits, des paysages et des événements, et créant des récits visuels captivants.</p>
+        </section>
+
+        <section class="section">
+            <h2>Équitation</h2>
+            <p>L'équitation, pratiquée à la fois en compétition et en loisirs, m'a permis de développer des compétences de discipline, de concentration et de patience. C'est une activité qui m'apporte une connexion profonde avec la nature et un bien-être mental et physique.</p>
+        </section>
+
+        <section class="section">
+            <h2>Sports</h2>
+            <p>En tant qu'adepte de la pratique sportive, j'apprécie le football et la natation, deux activités qui me permettent de maintenir une bonne condition physique, de travailler l'esprit d'équipe et de renforcer ma résistance et ma santé.</p>
+        </section>
+
+        <section class="section">
+            <h2>Volontariat</h2>
+            <p>Je m'engage activement avec le Croissant Rouge et la Protection Civile, où je participe à des actions humanitaires, à la gestion des urgences et à des campagnes de sensibilisation pour la sécurité et les premiers secours, contribuant ainsi à l'amélioration du bien-être des communautés.</p>
+        </section>
+
+        <section class="section">
+            <h2>Voyages et Interculturalité</h2>
+            <p>Les voyages me permettent de découvrir de nouvelles cultures, de m'enrichir de diverses perspectives et de développer des compétences en communication interculturelle. Ces expériences m'ont aidée à comprendre la diversité et à apprécier les valeurs universelles qui unissent l'humanité.</p>
+        </section>
+
+        <section class="section">
+            <h2>Création artistique</h2>
+            <p>Le design graphique et le montage vidéo sont des moyens d'expression que j'affectionne particulièrement. J'aime créer des visuels et des vidéos qui racontent des histoires et captivent l'audience, que ce soit dans un contexte personnel ou professionnel.</p>
+        </section>
+
+        <section class="section">
+            <h2>Bénévolat et Humanitaire</h2>
+            <p>Participer à des projets de bénévolat et à des initiatives humanitaires est essentiel pour moi. Je suis impliquée dans des collectes de fonds, des actions de distribution et des programmes d'accompagnement, apportant mon aide pour améliorer le quotidien des personnes dans le besoin.</p>
+        </section>
+
+        <section class="section">
+            <h2>Développement Durable</h2>
+            <p>L'engagement envers la protection de l'environnement et le développement durable est au cœur de mes préoccupations. Je participe à des initiatives de nettoyage, à des programmes de sensibilisation et je favorise des pratiques écoresponsables dans ma vie quotidienne.</p>
+        </section>
+
+        <a href="index.html" class="button">Retour à l'accueil</a>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Yasmine Ouerfelli. Tous droits réservés.</p>
+    </footer>
+</body>
+</html>
